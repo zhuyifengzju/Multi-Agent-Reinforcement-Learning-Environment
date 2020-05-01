@@ -1,5 +1,5 @@
 
-from env_OppositeV2 import EnvOppositeV2
+from env_Opposite import EnvOpposite
 import random
 
 if __name__ == '__main__':

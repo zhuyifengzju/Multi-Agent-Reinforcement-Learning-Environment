@@ -1,6 +1,6 @@
-from CEnvRescue import CEnvRescue
+from .CEnvRescue import CEnvRescue
 import numpy as np
-import maze
+from . import maze
 import matplotlib.pyplot as plt
 import random
 

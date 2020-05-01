@@ -1,5 +1,5 @@
 import numpy as np
-import maze
+from . import maze
 import random
 import cv2
 

@@ -9,7 +9,7 @@ algorithm to generate a randomized mazes!
 import numpy as np
 import os, sys, random, time, threading
 # defined in disjointSet.py
-import disjointSet as ds
+from . import disjointSet as ds
 
 class Maze:
 	# static variables

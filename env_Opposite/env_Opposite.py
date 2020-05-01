@@ -4,7 +4,7 @@ from matplotlib.gridspec import GridSpec
 import random
 import cv2
 
-class EnvOppositeV2(object):
+class EnvOpposite(object):
     def __init__(self, size):
         self.map_size = size
         self.raw_occupancy = np.zeros((self.map_size, self.map_size))
